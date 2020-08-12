@@ -1,2 +1,2 @@
-# vrutikpatel.com
-new personal site otw
+# Personal Site
+New personal site otw
