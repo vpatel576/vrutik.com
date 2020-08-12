@@ -1,0 +1,56 @@
+.project {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px dashed #000;
+}
+
+.project h2 {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.date {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.project h2 a {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 2px solid transparent;
+	transition: all .5s;
+}
+
+.project h2 a:hover {
+	color: #0096aa;
+	border-bottom: 2px solid #0096aa;
+}
+
+.description {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 5px 0px;
+}
+
+.tools {
+	font-size: 20px;
+	margin: 5px 0px;
+}
+
+.citations {
+	margin: 5px 0px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.citations a {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 2px solid transparent;
+	transition: all .5s;
+}
+
+.citations a:hover {
+	border-bottom: 2px solid #0096aa;
+	color: #0096aa;
+}
