@@ -1,0 +1,41 @@
+.resume{
+	text-align: center;
+}
+
+.resume a{
+	text-decoration: none;
+	color: #000;
+	font-size: 30px;
+	padding: 10px 40px;
+	border: 2px solid #000;
+	transition: all .5s;
+	border-radius: 5px;
+}
+
+.resume a:hover{
+	background: #0096aa;
+	color: #fff;
+	border: 2px solid #0096aa;
+}
+
+
+/*******  Form  *******/
+form {
+	max-width: 100%;
+}
+
+input, textarea{
+	border: 1px solid #000;
+	padding: 13px 0px;
+	display: block;
+	resize: none;
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	height: 100px;
+	width: 100%;
+}

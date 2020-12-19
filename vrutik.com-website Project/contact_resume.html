@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Vrutik Patel</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/about_me.css">
+	<link rel="stylesheet" type="text/css" href="css/contact_resume.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="fav_icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="fav_icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="fav_icons/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+
+
+<body>
+	<header>
+		<nav>
+			<a href="index.html">About</a>
+			<a href="experiences.html">Experiences</a>
+			<a href="projects.html" >Projects</a>
+			<a href="" class="current">Resume and Contact</a>
+			</ul>
+		</nav>
+		<div class="head_name">
+			<h1><a href='#'>Vrutik Patel</a></h1>
+		</div>
+	</header>
+	<section class="resume">
+		<a class="resume_btn" href="VP_Resume.pdf" target="_blank">Download Resume</a>
+	</section>
+	<section class="contact_form">
+		<h1>Or get in touch...</h1>
+		<form method="POST" data-netlify="true" netlify-honeypot="bot-field" name="contact_form">
+			<p>
+				<label for="in_name">Full Name</label>
+				<input type="text" name='name' id='in_name' placeholder='Jane Doe' required>
+			</p>
+			<p>
+				<label for="in_email">Email</label>
+				<input type="email" name="email" id="in_email" placeholder='jane.doe@gmail.com' required>
+			</p>
+			<p>
+				<label for="in_sub">Subject</label>
+				<input type="text" name="ph_sub" id="in_sub" placeholder="Example: Let's work together" required>
+			</p>
+			<p>
+				<label for="in_description">Message</label>
+				<textarea id="in_description" placeholder="Include your message here" name="description" required></textarea>
+			</p>
+		</form>
+	</section>
+</body>
+
+</html>
